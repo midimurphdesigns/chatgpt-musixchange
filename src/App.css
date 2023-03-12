@@ -1,3 +1,7 @@
+* {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .home-page {
   display: flex;
   flex-direction: column;
@@ -22,6 +26,7 @@
   border-radius: 10px;
   overflow: hidden;
   transition: all 0.2s ease-in-out;
+  background-color: rgb(107, 201, 201);
 }
 
 .gear-card:hover {
@@ -75,4 +80,27 @@
   border-bottom: 1px solid #aaa;
   margin-right: 1rem;
   width: 20rem;
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, #4f3a65, #5e5e5e);
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-right: 0.5rem;
+  color:rgb(10, 204, 225);
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+p {
+  font-size: 1.1rem;
+  font-weight: normal;
 }

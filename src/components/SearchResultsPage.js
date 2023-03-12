@@ -45,7 +45,11 @@ function SearchResultsPage() {
                 {gearList.map((item) => (
                     <div key={item.id}>
                         <Link to={`/gear/${item.id}`}>
-                            <img src={item.imageUrl} alt={item.name} style={{maxWidth: '400px'}} />
+                            <img
+                                src={item.imageUrl}
+                                alt={item.name}
+                                style={{ maxWidth: "400px" }}
+                            />
                             <h2>{item.name}</h2>
                         </Link>
                     </div>
